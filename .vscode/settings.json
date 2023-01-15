@@ -99,7 +99,12 @@
     "deque": "cpp",
     "fstream": "cpp",
     "iomanip": "cpp",
-    "stack": "cpp"
+    "stack": "cpp",
+    "__tree": "cpp",
+    "map": "cpp",
+    "numeric": "cpp",
+    "random": "cpp",
+    "thread": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
