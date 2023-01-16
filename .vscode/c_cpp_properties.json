@@ -4,7 +4,7 @@
       "name": "macos-clang-arm64",
       "includePath": [
         "${workspaceFolder}/**",
-        "/Users/bobo/Desktop/OOP-Project-CB/LocationDetails"
+        "include <iostream>"
       ],
       "compilerPath": "/usr/bin/clang",
       "cStandard": "${default}",
