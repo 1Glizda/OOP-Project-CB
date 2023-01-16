@@ -3,12 +3,14 @@
 
 class EventLocation {
 public:
-
+EventLocation(std::string location, std::unordered_map<std::string, std::string> zones, int totalCapacity) 
+: location_(location), zones_(zones), totalCapacity_(totalCapacity) {};
+   
    void setLocation(std::string location) {
         location_ = location;
     }
 
-    void setZones(std::unordered_map<std::string, int> zones) {
+    void setZones(std::unordered_map<std::string, std::string> zones) {
         zones_ = zones;
     }
 
@@ -20,7 +22,7 @@ public:
         return location_;
     }
 
-    std::unordered_map<std::string, int> getZones() {
+    std::unordered_map<std::string, std::string> getZones() {
         return zones_;
     }
 
@@ -30,6 +32,6 @@ public:
 
   private:
     std::string location_;
-    std::unordered_map<std::string, int> zones_;
+    std::unordered_map<std::string, std::string> zones_;
     int totalCapacity_;
 };
