@@ -5,6 +5,11 @@
             "label": "C/C++: clang++ build active file",
             "command": "/usr/bin/clang++",
             "args": [
+                "-I/usr/local/include",
+                "-L/usr/local/lib",
+                "-lopencv_core",
+                "-lopencv_imgproc",
+                "-lopencv_highgui",
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
                 "-g",
